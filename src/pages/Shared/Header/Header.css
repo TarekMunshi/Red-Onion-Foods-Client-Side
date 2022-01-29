@@ -1,0 +1,11 @@
+.h-btn{
+    border: none;
+    padding: 4px 15px;
+    background: #f91944;
+    color: white;
+    border-radius: 2px;
+    transition: all 0.5s ease;
+}
+.h-btn:hover{
+    background: #ff0033;
+}

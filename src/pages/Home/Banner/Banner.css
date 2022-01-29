@@ -1,0 +1,86 @@
+.hero-image {
+    background-image: url("../../../images/bannerbackground.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+  }
+  .hero-text h1{
+      text-align: center;
+      font-size: 3vw;
+  }
+  .banner-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-btn button{
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    background: #f91944;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+  }
+  .banner-btn button:hover{
+    background: #ff0033;
+  }
+  /* form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: white;
+  }
+   */
+  /* Style the submit button */
+  /* form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #f91944;
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-left: none; 
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #bd2745;
+  } */
+  
+  /* Clear floats */
+  /* form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+   */
+  @media only screen and (min-width: 320px) and (max-width:1024px){
+    /* form.example input[type=text] {
+        padding: 5px;
+       
+      }
+      form.example button {
+        padding: 5px;
+     
+      } */
+      .hero-text h1{
+        font-size: 1em;
+    }
+    .banner-btn button{
+      padding: 5px 30px;
+    }
+  }
+ 

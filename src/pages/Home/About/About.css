@@ -1,0 +1,17 @@
+.chef-card:hover{
+    box-shadow: 0px 15px 10px rgb(0 0 0 / 0.2);
+    transition: all 0.5s ease;
+}
+.chef-text{
+    border:1px solid none;
+    border-top: none;
+    margin-top: -20px;  
+    border-radius: 10px;
+}
+.icon{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background: #f91944;
+    color: white;
+}
