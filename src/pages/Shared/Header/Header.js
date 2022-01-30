@@ -72,7 +72,7 @@ const Header = () => {
                                 >
 
                                     <MenuItem onClick={handleCloseUserMenu}>
-                                        <Typography sx={{ width: '200px' }} textAlign="center">
+                                        <Typography sx={{ width: '250px' }} textAlign="center">
                                             <Box sx={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center' }}>
                                                 {user.photoURL ? <Avatar
                                                     alt={user.displayName}
