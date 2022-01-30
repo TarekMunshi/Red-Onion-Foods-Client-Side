@@ -40,20 +40,20 @@ const Login = () => {
                     </div>
                     <p className='text-center mb-0'>Or</p>
                     <div className='col-lg-4 col-10 '>
-                        <button className='login-btn' onClick={handleGoogleLogin} type="submit"><i class="fab fa-google-plus-g" style={{ fontSize: '20px' }}> &nbsp;Google</i> </button>
+                        <button className='login-btn' onClick={handleGoogleLogin} type="submit"><i className="fab fa-google-plus-g" style={{ fontSize: '20px' }}> &nbsp;Google</i> </button>
                     </div>
                     <p className='text-center'><Link className='text-decoration-none text-danger' to='/register'>New Here? Register</Link></p>
                 </div>}
-                {isLoading && <div class="d-flex justify-content-center align-items-center" style={{ marginTop: '50px', marginBottom: '50px' }}>
-                    <div class="spinner-border" role="status">
-                        <span class="visually-hidden">Loading...</span>
+                {isLoading && <div className="d-flex justify-content-center align-items-center" style={{ marginTop: '50px', marginBottom: '50px' }}>
+                    <div className="spinner-border" role="status">
+                        <span className="visually-hidden">Loading...</span>
                     </div>
                 </div>}
             </Container >
             {!isLoading && < div className='d-flex justify-content-center'>
                 <button className='home-btn '><Link className='text-decoration-none text-black' to='/'>Back To Home</Link></button>
             </div>}
-        </div >
+        </div>
     );
 };
 

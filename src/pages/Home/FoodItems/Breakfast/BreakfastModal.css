@@ -1,0 +1,30 @@
+.quantity-btn{
+    border: 1px solid;
+    padding:5px 15px;
+    border-radius: 50px;
+}
+.counter-btn{
+    background: none;
+    border: none;
+}
+.counter{
+    margin-right: 4px;
+    margin-left: 4px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.counter-btn:hover{
+    color: #f91944;
+}
+.add-btn{
+    padding: 5px 25px;
+    border: none;
+    border-radius: 50px;
+    background: #f91944;
+    color: white;
+    font-weight: lighter;
+}
+.add-btn:hover{
+   cursor: pointer;
+   background: #ff224e;
+}

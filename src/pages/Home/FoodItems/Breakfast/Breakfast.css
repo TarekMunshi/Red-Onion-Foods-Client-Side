@@ -1,12 +1,13 @@
 .b-card{
     padding: 10px 0px;
     transition: all 0.5s ease;
+    cursor: pointer;
 }
 .b-card:hover{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius: 5px;
 }
-.add-btn{
+/* .add-btn{
     padding: 4px 25px;
     border: none;
     border-radius: 50px;
@@ -16,4 +17,4 @@
 .add-btn:hover{
    cursor: pointer;
    background: #ff224e;
-}
+} */

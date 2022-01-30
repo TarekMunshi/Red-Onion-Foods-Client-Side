@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
+import DinnerCard from './DinnerCard';
 
 const Dinner = () => {
     const [dinners, setDinners] = useState([]);
@@ -13,24 +14,7 @@ const Dinner = () => {
             <Container>
                 <div className="row mt-4 mb-5 gy-3">
                     {
-                        dinners.length ? dinners.map(dinner =>
-                            <div className="col-lg-4 d-flex flex-column  align-items-center" key={dinner.id}>
-                                <div className=' b-card w-75'>
-                                    <div className=' d-flex justify-content-center'>
-                                        <img className='w-50' src={dinner.img} alt="" />
-                                    </div>
-                                    <div className='mt-4'>
-                                        <h6 className='text-center'>{dinner.name}</h6>
-                                        <p className='text-center text-black-50'>{dinner.shortDescription}</p>
-                                        <h6 className='text-center'>${dinner.price}</h6>
-                                        <div className='d-flex justify-content-center'>
-                                            <div>
-                                                <button className='add-btn'><i class="fas fa-cart-plus"></i></button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        dinners.length ? dinners.map(dinner => <DinnerCard key={dinner.id} dinner={dinner}></DinnerCard>
                         ) : <div class="d-flex justify-content-center">
                             <div class="spinner-grow" role="status">
                                 <span class="visually-hidden">Loading...</span>
